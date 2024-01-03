@@ -4,20 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e8263f1-eb49-48f7-a2f3-b960a55792bb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="6e8263f1-eb49-48f7-a2f3-b960a55792bb" name="Changes" comment="30/12/2023">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Messages/Messages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Place/Kitchen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Place/Pantry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Place/Place.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Things/Bowl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Things/Devices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Things/Egg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Things/Food.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Things/Pan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Things/Pepper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Things/Plate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Things/Salt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Things/Stove.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2aGUMjkFMG6Xa3N76FDXsBwaofV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -26,14 +48,41 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.App.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/slawo/Desktop/ZaRaczke/TextGame/src/main/java/org/example/Main.java",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="App" />
+      <module name="TextGame" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-19.0.2-corretto-19.0.2-3183f394aec4-f0552fc0" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -42,22 +91,35 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1703944370582</updated>
-      <workItem from="1703944371739" duration="4000" />
+      <workItem from="1703944371739" duration="979000" />
+      <workItem from="1704184908283" duration="82000" />
+      <workItem from="1704211941147" duration="599000" />
+      <workItem from="1704277916661" duration="7011000" />
     </task>
+    <task id="LOCAL-00001" summary="30/12/2023">
+      <option name="closed" value="true" />
+      <created>1703944535667</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703944535667</updated>
+    </task>
+    <task id="LOCAL-00002" summary="30/12/2023">
+      <option name="closed" value="true" />
+      <created>1703944626248</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1703944626248</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="30/12/2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="30/12/2023" />
   </component>
 </project>
