@@ -8,8 +8,6 @@ public class Pantry extends Place{
 
     public Pantry() {
         add(new Egg());
-        add(new Egg());
-        add(new Egg());
         add(new Salt());
         add(new Pepper());
     }
