@@ -2,6 +2,6 @@ package Things;
 
 public class Egg extends Food {
     public Egg() {
-        this.name = "Jajka";
+        this.name = "jajka";
     }
 }

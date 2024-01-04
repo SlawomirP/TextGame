@@ -1,9 +1,11 @@
 package Place;
 
+import Messages.Messages;
+
 import java.util.ArrayList;
 
 public abstract class Place<T> {
-
+    private boolean isActive;
     private ArrayList<T> itemList = new ArrayList<>();
 
     public ArrayList<T> getItemList() {
@@ -13,16 +15,36 @@ public abstract class Place<T> {
     public void add(T e) {
         itemList.add(e);
     }
-
-    public T get(int index) {
-        return itemList.get(index - 1);
+    public void removeItem(int index){
+        itemList.remove(index);
     }
 
-    public void print() {
+    public T getObject(int index) {
+        return itemList.get(index);
+    }
+
+    public int checkIndex (String name){
+        int temp = 0;
         for (int i = 0; i < itemList.size(); i++) {
-            System.out.println((i + 1) + ". " +  itemList.get(i).toString());
+            if(itemList.get(i).toString().equals(name)){
+                temp = i;
+            }
         }
+        return temp;
+    }
+    public void print() {
+        if(itemList.isEmpty()){
+            System.out.println(Messages.NO_PRODUCTS);
+        } else
+        itemList.forEach(System.out :: println);
     }
 
+    public boolean isActive() {
+        return isActive;
+    }
+
+    public void setActive(boolean active) {
+        isActive = active;
+    }
 
 }
