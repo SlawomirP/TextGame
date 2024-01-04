@@ -6,8 +6,8 @@ import Things.Stove;
 
 public class Kitchen extends Place {
     public Kitchen() {
-        add(new Stove());
-        add(new Pan());
-        add(new Plate());
+        addItem(new Stove());
+        addItem(new Pan());
+        addItem(new Plate());
     }
 }

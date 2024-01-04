@@ -1,8 +1,8 @@
 package Things;
 
-public class Salt extends Food {
-    public Salt() {
-        this.name = "sól";
+public class Butter extends Food {
+    public Butter() {
+        this.name = "masło";
     }
 
     @Override
@@ -10,9 +10,8 @@ public class Salt extends Food {
         return this.name.compareTo(o.getName());
     }
 
-    @Override
     public boolean equals(Object obj) {
-        Salt tempObj = (Salt)obj;
+        Butter tempObj = (Butter)obj;
         return this.name.equals(tempObj.name);
     }
 }

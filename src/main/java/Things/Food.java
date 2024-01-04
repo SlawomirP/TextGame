@@ -1,6 +1,6 @@
 package Things;
 
-public abstract class Food {
+public abstract class Food implements Comparable <Food> {
     String name;
     public String getName() {
         return this.name;
@@ -8,4 +8,7 @@ public abstract class Food {
     public String toString() {
         return this.name;
     }
+
+
+
 }

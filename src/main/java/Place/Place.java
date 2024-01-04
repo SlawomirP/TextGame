@@ -5,17 +5,22 @@ import Messages.Messages;
 import java.util.ArrayList;
 
 public abstract class Place<T> {
-    private boolean isActive;
+    boolean isActive;
     private ArrayList<T> itemList = new ArrayList<>();
+
+    public int getListSize(){
+        return itemList.size();
+    }
 
     public ArrayList<T> getItemList() {
         return itemList;
     }
 
-    public void add(T e) {
+    public void addItem(T e) {
         itemList.add(e);
     }
-    public void removeItem(int index){
+
+    public void removeItem(int index) {
         itemList.remove(index);
     }
 
@@ -23,20 +28,21 @@ public abstract class Place<T> {
         return itemList.get(index);
     }
 
-    public int checkIndex (String name){
+    public int checkIndex(String name) {
         int temp = 0;
         for (int i = 0; i < itemList.size(); i++) {
-            if(itemList.get(i).toString().equals(name)){
+            if (itemList.get(i).toString().equals(name)) {
                 temp = i;
             }
         }
         return temp;
     }
+
     public void print() {
-        if(itemList.isEmpty()){
+        if (itemList.isEmpty()) {
             System.out.println(Messages.NO_PRODUCTS);
         } else
-        itemList.forEach(System.out :: println);
+            itemList.forEach(System.out::println);
     }
 
     public boolean isActive() {
@@ -46,5 +52,6 @@ public abstract class Place<T> {
     public void setActive(boolean active) {
         isActive = active;
     }
+
 
 }
