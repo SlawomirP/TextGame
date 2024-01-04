@@ -10,6 +10,11 @@ public class Game {
         System.out.println(Messages.INTRODUCTION);
         System.out.println(Messages.INGREDIENTS);
 
+        while (!endGame) {
+            System.out.println(Messages.OPTIONS);
+
+        }
+
 
 
     }

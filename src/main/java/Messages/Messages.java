@@ -6,7 +6,8 @@ public class Messages {
             "Następnie przejdź do kuchni i używając odpowiednich narzędzi, przygotuj jajecznicę. ";
 
     public static final String INGREDIENTS = "Składniki jajecznicy to: jajka, sól pieprz i masło.";
-    public static final String OPTIONS = "1 - użyj, 2 - zabierz, 3 - wyświetl przedmioty, 4 - pomoc, 5 - opis pomieszczenia, 0 - wyjdź";
+    public static final String START_OPTIONS = "1 - wejdź do spiżarni, 2 - wejdź do kuchni";
+        public static final String PLACE_OPTIONS = "1 - użyj, 2 - zabierz, 3 - wyświetl przedmioty, 4 - pomoc, 5 - opis pomieszczenia";
     public static final String KITCHEN_DESCRPT = "Jesteś w kuchni, odczuwasz ciepłą atmosferę, która unosi się w powietrzu. Światło słoneczne, wpadające przez okno, odbija się od błyszczących blatów, dodając wnętrzu energii i radości. Na lewo znajduje się kuchenka elektryczna.\n" +
             "\n" +
             "Zaraz obok niej stoi kolorowa miseczka gotowa do użycia. Obok miseczki leży patelnia.\n" +
