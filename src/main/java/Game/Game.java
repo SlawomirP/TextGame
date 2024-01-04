@@ -76,26 +76,15 @@ public class Game {
                 case "2":
                     kitchen.setActive(true);
 
-                    // to do wyciągnięcia
-
-                    System.out.println("przypisanie recipe");
-                    ArrayList<Food> temp1 = recipe.getItemList();
-
-                    System.out.println("przypisanie baga");
-                    ArrayList<Food> temp2 = bag.getItemList();
-
-                    Collections.sort(temp1);
-                    Collections.sort(temp2);
-
-                    System.out.println("wynik: " + temp1.equals(temp2));
-
+                    checkAllIngredientsInBag();
 
                     System.out.println(Messages.KITCHEN_ENTER);
 
-                    while(kitchen.isActive()){
+                    while (kitchen.isActive()) {
+
                         System.out.println(Messages.PLACE_OPTIONS);
 
-                        switch (scanner.nextLine()){
+                        switch (scanner.nextLine()) {
                             case "1":
                                 kitchen.print();
                                 break;
@@ -112,25 +101,41 @@ public class Game {
                                 kitchen.setActive(false);
                                 break;
                             case "sprawdź torba":
-
-
+                                completenessOfIngredientsInBag();
                                 break;
                             case "przedmioty w torbie":
                                 bag.print();
                                 break;
                         }
                     }
-
                     break;
                 default: {
                     System.out.println(Messages.DEFAULT);
                 }
             }
 
-
 //            endGame = true;
         }
 
 
+    }
+
+    private void completenessOfIngredientsInBag() {
+        if (bag.isActive()) {
+            System.out.println(Messages.CORRECT_INGREDIENTS);
+        } else
+            System.out.println(Messages.INCORRECT_INGREDIENTS);
+    }
+
+    private void checkAllIngredientsInBag() {
+        ArrayList<Food> temp1 = recipe.getItemList();
+        ArrayList<Food> temp2 = bag.getItemList();
+        Collections.sort(temp1);// zeby sortowanie po nazwach działało w Foodzie zaimplementowalem Comparabla
+        Collections.sort(temp2);// dodatkowo w kazdej klasie ktora dziedziczy po Foodzie nadpisałem compareTo
+        // po nazwach
+        if (temp1.equals(temp2)) {// zeby sprawdzic równosc obiektow ale tylko po nazwach to w klasach
+            // dziedziczących po Foodzie nadpisałem equals warunek: tylko nazwy
+            bag.setActive(true);
+        }
     }
 }
