@@ -4,23 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e8263f1-eb49-48f7-a2f3-b960a55792bb" name="Changes" comment="03/01/2024">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Game/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Place/Bag.java" afterDir="false" />
+    <list default="true" id="6e8263f1-eb49-48f7-a2f3-b960a55792bb" name="Changes" comment="04/01/2024">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Game/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Messages/Messages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Messages/Messages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Place/Kitchen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Place/Kitchen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Place/Pantry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Place/Pantry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Things/Bowl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Things/Bowl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Things/Devices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Things/Devices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Things/Egg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Things/Egg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Things/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Things/Food.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Things/Pan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Things/Pan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Things/Pepper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Things/Pepper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Things/Plate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Things/Plate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Things/Salt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Things/Salt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Things/Stove.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Things/Stove.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +84,7 @@
       <workItem from="1704211941147" duration="599000" />
       <workItem from="1704277916661" duration="7041000" />
       <workItem from="1704305212602" duration="1015000" />
-      <workItem from="1704358788639" duration="2194000" />
+      <workItem from="1704358788639" duration="4581000" />
     </task>
     <task id="LOCAL-00001" summary="30/12/2023">
       <option name="closed" value="true" />
@@ -123,7 +110,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704301603773</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="04/01/2024">
+      <option name="closed" value="true" />
+      <created>1704360994246</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1704360994246</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +127,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="30/12/2023" />
     <MESSAGE value="03/01/2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="03/01/2024" />
+    <MESSAGE value="04/01/2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="04/01/2024" />
   </component>
 </project>
