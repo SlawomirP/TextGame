@@ -7,7 +7,7 @@ public class test {
         Bag bag = new Bag();
         Kitchen kitchen = new Kitchen();
 
-        Devices stove = (Devices)kitchen.getObject(0);
+        Devices stove = (Devices) kitchen.getObject(0);
         System.out.println(stove.getName());
         System.out.println(stove.getActiveStatus());
         stove.use();

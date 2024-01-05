@@ -3,7 +3,7 @@ package Place;
 import Things.*;
 
 
-public class Pantry extends Place{
+public class Pantry extends Place {
 
     public Pantry() {
         addItem(new Egg());

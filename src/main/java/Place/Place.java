@@ -8,7 +8,7 @@ public abstract class Place<T> {
     boolean isActive;
     private ArrayList<T> itemList = new ArrayList<>();
 
-    public int getListSize(){
+    public int getListSize() {
         return itemList.size();
     }
 
