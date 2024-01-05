@@ -12,7 +12,7 @@ public class Pepper extends Food {
     }
 
     public boolean equals(Object obj) {
-        Pepper tempObj = (Pepper)obj;
+        Pepper tempObj = (Pepper) obj;
         return this.name.equals(tempObj.name);
     }
 }

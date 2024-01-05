@@ -12,7 +12,7 @@ public class Egg extends Food {
     }
 
     public boolean equals(Object obj) {
-        Egg tempObj = (Egg)obj;
+        Egg tempObj = (Egg) obj;
         return this.name.equals(tempObj.name);
     }
 }

@@ -7,6 +7,17 @@
     <list default="true" id="6e8263f1-eb49-48f7-a2f3-b960a55792bb" name="Changes" comment="04/01/2024">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Game/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Messages/Messages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Messages/Messages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Place/Kitchen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Place/Kitchen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Things/Butter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Things/Butter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Things/Devices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Things/Devices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Things/Egg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Things/Egg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Things/Pan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Things/Pan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Things/Pepper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Things/Pepper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Things/Plate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Things/Plate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Things/Salt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Things/Salt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Things/Stove.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Things/Stove.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,24 +43,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.App.executor": "Run",
-    "Application.test.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/slawo/Desktop/ZaRaczke/TextGame/src/main/java/org/example/Main.java",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/slawo/Desktop/ZaRaczke/TextGame/src/main/java/org/example/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Things" />
@@ -98,6 +109,7 @@
       <workItem from="1704277916661" duration="7041000" />
       <workItem from="1704305212602" duration="1015000" />
       <workItem from="1704358788639" duration="29785000" />
+      <workItem from="1704452105676" duration="7113000" />
     </task>
     <task id="LOCAL-00001" summary="30/12/2023">
       <option name="closed" value="true" />

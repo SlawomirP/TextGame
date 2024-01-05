@@ -11,7 +11,7 @@ public class Butter extends Food {
     }
 
     public boolean equals(Object obj) {
-        Butter tempObj = (Butter)obj;
+        Butter tempObj = (Butter) obj;
         return this.name.equals(tempObj.name);
     }
 }

@@ -7,10 +7,20 @@ public abstract class Devices {
     public String getName() {
         return this.name;
     }
+
     public String toString() {
         return this.name;
     }
 
-    public abstract void use ();
+    public void use() {
+        if (!isActive) {
+            isActive = true;
+        } else
+            isActive = false;
+    }
+
+    public boolean getActiveStatus() {
+        return isActive;
+    }
 
 }

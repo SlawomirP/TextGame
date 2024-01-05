@@ -78,6 +78,10 @@ public class Game {
 
                     checkAllIngredientsInBag();
 
+                    Devices stove = (Devices) kitchen.getObject(0);
+                    Devices pan = (Devices) kitchen.getObject(1);
+                    Devices plate = (Devices) kitchen.getObject(2);
+
                     System.out.println(Messages.KITCHEN_ENTER);
 
                     while (kitchen.isActive()) {
@@ -103,9 +107,27 @@ public class Game {
                             case "sprawdź torba":
                                 completenessOfIngredientsInBag();
                                 break;
-                            case "przedmioty w torbie":
-                                bag.print();
+                            case "użyj kuchenka":
+                                stove.use();
+                                System.out.println(Messages.STOVE_IS_ACTIVE);
                                 break;
+                            case "użyj patelnia":
+                                if (stove.getActiveStatus()) {
+                                    pan.use();
+                                    System.out.println(Messages.ALMOST_PREPARED_DISH);
+                                } else
+                                    System.out.println(Messages.WARNING_STOVE);
+                                break;
+                            case "użyj talerzyk":
+                                if (stove.getActiveStatus() && pan.getActiveStatus()) {
+                                    System.out.println(Messages.DISH_READY);
+                                    kitchen.setActive(false);
+                                    endGame = true;
+                                } else
+                                    System.out.println(Messages.NOT_ALL_ACTIVITIES);
+                                break;
+                            default:
+                                System.out.println(Messages.DEFAULT);
                         }
                     }
                     break;
@@ -113,11 +135,7 @@ public class Game {
                     System.out.println(Messages.DEFAULT);
                 }
             }
-
-//            endGame = true;
         }
-
-
     }
 
     private void completenessOfIngredientsInBag() {
